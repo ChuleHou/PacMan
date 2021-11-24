@@ -1,0 +1,40 @@
+#game {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+.wall {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: darkblue;
+    border: 2px solid lightsteelblue;
+    box-sizing: border-box;
+}
+.coin {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url("../asset/coin.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+/* 背景 */
+.bg {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+}
+/* 吃豆人 */
+.pacman {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url("../asset/Pacman.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
